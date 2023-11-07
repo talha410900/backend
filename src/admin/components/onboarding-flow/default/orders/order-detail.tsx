@@ -2,7 +2,7 @@ import React from "react";
 import {
   ComputerDesktopSolid,
   CurrencyDollarSolid,
-  ToolsSolid,
+  NextJs
 } from "@medusajs/icons";
 import { IconBadge, Heading, Text } from "@medusajs/ui";
 
@@ -26,11 +26,11 @@ const OrderDetailDefault = () => {
       </Text>
       <div className="grid grid-cols-3 gap-4 mt-6 pb-6 mb-6 border-b border-ui-border-base border-solid auto-rows-fr">
         <a
-          href="https://docs.medusajs.com/starters/nextjs-medusa-starter?path=simple-quickstart"
+          href={`https://docs.medusajs.com/modules/overview?ref=onboarding`}
           target="_blank"
           className="flex"
         >
-          <div className="p-3 rounded-rounded flex items-start bg-ui-bg-subtle shadow-elevation-card-rest hover:shadow-elevation-card-hover">
+          <div className="p-3 rounded-rounded items-start flex bg-ui-bg-subtle shadow-elevation-card-rest hover:shadow-elevation-card-hover">
             <div className="mr-4">
               <div className="bg-ui-bg-base rounded-lg border border-ui-border-strong p-1 flex justify-center items-center">
                 <IconBadge>
@@ -44,11 +44,11 @@ const OrderDetailDefault = () => {
                 weight="plus"
                 className="mb-1 text-ui-fg-base"
               >
-                Start Selling in 3 Steps
+                Add Commerce Features
               </Text>
               <Text size="small">
-                Go live with a backend, an admin, and a storefront by following
-                these three steps.
+                Learn about all available commerce features and how to
+                add them in your storefront
               </Text>
             </div>
           </div>
@@ -75,14 +75,14 @@ const OrderDetailDefault = () => {
                 Build Custom Use Cases
               </Text>
               <Text size="small">
-                Learn how to build a marketplace, subscription-based purchases,
-                or your custom use-case.
+                Build a marketplace, subscription-based purchases,
+                or your custom use-cases.
               </Text>
             </div>
           </div>
         </a>
         <a
-          href="https://docs.medusajs.com/beta/?ref=onboarding"
+          href={`https://docs.medusajs.com/starters/nextjs-medusa-starter?ref=onboarding`}
           target="_blank"
           className="flex"
         >
@@ -90,7 +90,7 @@ const OrderDetailDefault = () => {
             <div className="mr-4">
               <div className="bg-ui-bg-base rounded-lg border border-ui-border-strong p-1 flex justify-center items-center">
                 <IconBadge>
-                  <ToolsSolid />
+                  <NextJs />
                 </IconBadge>
               </div>
             </div>
@@ -100,11 +100,11 @@ const OrderDetailDefault = () => {
                 weight="plus"
                 className="mb-1 text-ui-fg-base"
               >
-                Check out beta features
+                Install Next.js Quickstart
               </Text>
               <Text size="small">
-                Learn about hidden beta features and how to enable them in your
-                store.
+                Install and use the Next.js storefront with
+                your commerce store.
               </Text>
             </div>
           </div>
